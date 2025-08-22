@@ -2,6 +2,7 @@ use base64::{Engine as _, engine::general_purpose};
 use serde::{Deserialize, Serialize};
 use std::{fs, path::PathBuf};
 use warp::{Filter, http::Method, reply::Reply};
+use clap::{Command};
 
 #[derive(Debug, Serialize, Deserialize)]
 struct NowPlaying {
@@ -24,6 +25,13 @@ fn get_videos_nowplaying() -> PathBuf {
 
 #[tokio::main]
 async fn main() {
+
+    let _matches = Command::new("NowPlaying Server")
+        .version(env!("CARGO_PKG_VERSION"))
+        .author(env!("CARGO_PKG_AUTHORS"))
+        .about(env!("CARGO_PKG_DESCRIPTION"))
+        .get_matches();
+
     let ruta = get_videos_nowplaying();
     println!("Carpeta de salida: {}", ruta.display());
 

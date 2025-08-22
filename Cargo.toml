@@ -2,6 +2,13 @@
 name = "obs-nowplaying"
 version = "0.1.0"
 edition = "2024"
+authors = ["Shiro Aky <shirodev.job@gmail.com>"]
+license = "GPL-3.0-or-later"
+description = "Servidor en Rust que recibe info de la extensión de Chrome para mostrar detalles de música."
+homepage = "https://github.com/ShiroAky/obs-nowplaying"
+repository = "https://github.com/ShiroAky/obs-nowplaying"
+documentation = "https://github.com/ShiroAky/obs-nowplaying/blob/master/README.MD"
+build = "build.rs"
 
 [dependencies]
 tokio = { version = "1", features = ["rt-multi-thread", "macros", "signal"] }
@@ -12,3 +19,7 @@ chrono = { version = "0.4", features = ["clock"] }
 dirs = "6.0.0"
 warp = "0.3"
 base64 = "0.22.1"
+clap = "4.5.45"
+
+[build-dependencies]
+winres = "0.1"
