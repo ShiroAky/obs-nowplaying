@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Now Playing",
+  "version": "1.0",
+  "description": "Envía la información de la canción que se está reproduciendo a un servidor local",
+  "permissions": [
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": [
+    "*://*.music.youtube.com/*"
+  ],
+  "background": {
+    "service_worker": "./src/background.js"
+  }
+}
