@@ -29,3 +29,4 @@ This is a custom license inspired by the GNU General Public License v3.0, with a
 In case of conflict, the terms above prevail.
 
 For more details, see: https://www.gnu.org/licenses/gpl-3.0.html
+
