@@ -1,0 +1,31 @@
+# Custom Copyleft License (Based on GNU GPL v3.0)
+
+Copyright (C) [2025] [ShiroAky]
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of this License as published by the Free Software Foundation,
+either version 3 of the License, or (at your option) any later version,
+with the additional condition described below.
+
+## Permissions
+- Commercial use
+- Distribution
+- Modification
+- Private use
+
+## Conditions
+- Source code disclosure: You must provide the complete corresponding source code when distributing.
+- License and copyright notice: You must retain this license and copyright notice in all copies or substantial portions of the Software.
+- Same license: Modifications must be licensed under the same terms as this license.
+- State changes: You must document any modifications made to the software.
+
+## Limitations
+- No liability: The software is provided "as-is", without any warranty of any kind.
+- No warranty: The authors are not responsible for any damages resulting from the use of this software.
+- No patent rights: This license does **not** grant any rights related to patents. Any use of this software requiring patent rights is strictly prohibited.
+
+## Disclaimer
+This is a custom license inspired by the GNU General Public License v3.0, with an added explicit exclusion of patent rights. 
+In case of conflict, the terms above prevail.
+
+For more details, see: https://www.gnu.org/licenses/gpl-3.0.html
